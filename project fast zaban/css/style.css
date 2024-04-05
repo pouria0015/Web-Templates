@@ -1,0 +1,291 @@
+/* add font Vazir in project */
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+}
+
+/* basic general web style */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir",Arial, Helvetica, sans-serif !important;
+  line-height: 1.6;
+}
+
+/* web navbar style */
+nav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+nav a {
+   float: right;
+   display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 5px;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color:#355C7D ;
+  color: white;
+}
+
+nav .search-box {
+  float: left;
+  margin: 5px 5px 5px 15px;
+}
+
+nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;  
+  border: none;
+}
+
+nav .search-box button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+nav .search-box button:hover {
+  background: #ccc;
+}
+
+/* web slide style */
+.slide{
+  background-color: #d1d5da;
+  display: flex;
+  height: 400px; 
+  align-items: center;
+  padding-left:200px;
+  padding-right: 200px;
+}
+.text-slide {
+  color: rgb(75, 52, 43);
+  padding: 20px;
+}
+.img-slide{
+  padding: 20px;
+}
+
+
+/* the style of educational cards in the project */
+.learn-cards{
+  background-color: #f1f5f8;
+  color: rgb(43, 95, 75);
+  margin: 25px 40px 25px 40px;
+  padding-right: 150px;
+  padding-left: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 25px;
+  width: 20%;
+  margin: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+  padding: 10px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.title-card {
+  color: rgb(0, 0, 0);
+  font-size:24px;
+  text-align: center;
+}
+.paragraph-card{
+  color: rgb(78, 77, 77);
+}
+.card a{
+  text-decoration: none;
+  margin: 10px 2px 10px 0;
+}
+
+.img-card {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  transition: 0.5s ease-in;
+  backface-visibility: hidden;
+}
+
+.text-img-card {
+  transition: 0.5s ease-in;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-card:hover .image {
+  opacity: 0.3;
+}
+
+.img-card:hover .text-img-card {
+  opacity: 1;
+}
+
+.text {
+  color: rgb(114, 107, 107);
+  font-size: 16px;
+  padding: 16px 32px;
+  font-size: larger;
+}
+
+
+
+
+/* web article style */
+.article-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 8px 0;
+  grid-gap: 1.5rem;
+}
+
+.card-article {
+  background-color: #f1f5f8;
+  color: rgb(43, 95, 75);
+  padding: 30px;
+  margin: 15px 20px 15px 0px;
+  border-radius: 30px;
+}
+
+.list li {
+  padding: 8px 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
+.list li a{
+  text-decoration: none;
+  margin: 10px 2px 10px 0;
+}
+
+
+/* web about us style */
+.about-card{
+  background-color: #f1f5f8;
+  color: rgb(43, 95, 75);
+  margin: 25px 40px 25px 40px;
+  padding: 50px 150px 50px 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row
+}
+
+
+/* web forms style */
+.form-card{
+  background-color: #f1f5f8;
+  color: rgb(43, 95, 75);
+  margin: 25px 40px 80px 40px;
+  padding: 60px 150px 60px 150px;
+  border-radius: 35px;
+}
+.form-card a{
+  text-decoration: none;
+  margin:20px;
+}
+.form-card input[type=text]{
+  width: 100%;
+  padding: 10px 18px;
+  margin: 8px 0;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.form-card input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-card input[type=submit] {
+  width: 100%;
+  background-color:#274b6b ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.form-card input[type=submit]:hover {
+  background-color:#33648f ;
+  
+}
+
+
+/* web footer style */
+footer {
+  width: 100%;
+  margin-top: 35px;
+  padding: 20px;
+  background-color: rgb(111, 136, 173);
+  color: white;
+  text-align: center;
+}
+
+
+

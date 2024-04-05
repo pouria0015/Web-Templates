@@ -1,0 +1,30 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: #ccc;
+}
+
+.image-container {
+    
+  position: relative;
+  display: inline-block;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .9s ease;
+    backface-visibility: hidden;
+  }
+  
+  .image-container:hover .image {
+    opacity: 0.4;
+  }
+
+  a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+  }

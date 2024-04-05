@@ -1,0 +1,24 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.image-container {
+    
+  position: relative;
+  display: inline-block;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .9s ease;
+    backface-visibility: hidden;
+  }
+  
+  .image-container:hover .image {
+    opacity: 0.4;
+  }
+  
