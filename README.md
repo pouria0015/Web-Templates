@@ -14,11 +14,11 @@ Hello, I tried to put the projects that I developed with html, css, bootstrap te
 ## blog me
 A personal website to put your skills, abilities and descriptions about yourself, which has an admin panel and...
 
-![website me](./blog-me/img/ReadmeImages/img-1.png) 
-![website me](./blog-me/img/ReadmeImages/img-2.png)
-![website me](./blog-me/img/ReadmeImages/img-3.png) 
-![website me](./blog-me/img/ReadmeImages/img-4.png) 
-![website me](./blog-me/img/ReadmeImages/img-5.png) 
+![website me](./blog-me/img/ReadMeImages/img-1.png) 
+![website me](./blog-me/img/ReadMeImages/img-2.png)
+![website me](./blog-me/img/ReadMeImages/img-3.png) 
+![website me](./blog-me/img/ReadMeImages/img-4.png) 
+![website me](./blog-me/img/ReadMeImages/img-5.png) 
 
 
 ## blog project fast zaban
